@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title Dance Website
+    block scripts
+    block style
+  body
+    nav#navbar
+           div#logo 
+            img(src='/static/images/dancelogo.png')
+            h2 Dance Zone
+           ul 
+            li #[a(href="/") Home]
+            li #[a(href="/") Blog]
+            li #[a(href="/contact") Contact]
+            li #[a(href="/") Services]
+            li #[a(href="/") Email]
+    block content
+    footer#foot 
+        p Copyright &#169; DanceZone.com | All rights reserved

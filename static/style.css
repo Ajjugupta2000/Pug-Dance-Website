@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Open+Sans:ital@1&family=Orbitron&family=Sacramento&family=Sofia+Sans:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    /* border:1px solid black; */
+    background-color: rgb(0, 0, 0);
+    font-family: 'Orbitron', sans-serif;  
+    display: flex;   
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    /* background-color: beige; */
+    padding: 26px 36px
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;  
+}
+a:hover{
+    color: brown;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    /* border: 1px solid white; */
+    width: 400px;
+    padding-left: 40px;
+}
+#logo img{
+    width: 70px;
+    height: 70px;   
+}
+#intro::before{
+    content: "";
+    z-index:-1;
+    position: absolute;
+    background:  center/cover no-repeat url("/static/images/bg1.jpg");  
+    width: 100%;
+    height: 400px;
+    
+}
+#intro{ 
+   
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#intro p{
+    width: 900px;
+    font-size: 25px;
+}
+#mission{
+    /* border: 1px solid black; */
+    height: 300px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.missionlist{
+    display: flex;
+}
+.card{
+    width: 300px;
+    height: 180px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 40px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(216, 200, 196);
+}
+.card h3{
+    color: rgb(88, 3, 3);
+    font-size: 22px;
+}
+.carddesc{
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 5px;
+    margin-top: 10px;
+}
+.carddesc img{
+    width: 100px;
+    height: 100px;    
+}
+#sponsor{
+    background-color: rgb(216, 200, 196);
+    height: 300px;  
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 10px;
+    /* align-items: center; */
+    
+}
+#sponlogo{
+    
+    padding: 10px;
+    margin-top: 20px;
+}
+#sponlogo img{
+    width: 200px;
+    height: 180px;
+    display: inline-block;
+    margin: 0px 5px;
+    
+}
+#foot{
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+#contact{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 75vh;
+    margin: 20px auto;
+    border-radius: 50px;
+    padding: 5px;
+}
+h1{
+    color: brown;
+    margin: 8px;
+}
+#fillform{
+    display: flex;
+    flex-direction: column;
+}
+.myinput{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 13px;
+    width: 400px;
+    margin: 5px;
+    font-size: 15px;
+    outline: none;
+}
+
+#btn{
+    padding: 10px;
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    margin: 17px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: black;
+}

@@ -1,0 +1,54 @@
+doctype html
+html 
+    head 
+        title Dance Academy
+        style 
+            include ../static/style.css 
+    
+    body 
+        nav#navbar
+           div#logo 
+            img(src='/static/images/dancelogo.png')
+            h2 Dance Zone
+           ul 
+            li #[a(href="/") Home]
+            li #[a(href="/") Blog]
+            li #[a(href="/") Contact]
+            li #[a(href="/") Services]
+            li #[a(href="/") Email]
+
+        section#intro 
+            h1 Welcome to Dance Zone 
+            p  From hip hop to tap to ballet and more, over 1000 online classes to take you to the next level! Sign up today learn to dance from the premier online dance ... 
+
+        section#mission 
+            h1 Our Mission
+            div.missionlist
+                div.card
+                    h3 Dance Perfection 
+                    div.carddesc#card1
+                        img(src='/static/images/step1.png')
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere adipisci quia unde possimus inventore beatae dolorem ducimus. Ratione, possimus fugit?
+                div.card
+                    h3 Growth 
+                    div.carddesc#card2
+                        img(src='/static/images/step2.png')
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere adipisci quia unde possimus inventore beatae dolorem ducimus. Ratione, possimus fugit?
+                div.card
+                    h3 Skilled Tutor 
+                    div.carddesc#card3
+                        img(src='/static/images/step3.png')
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere adipisci quia unde possimus inventore beatae dolorem ducimus. Ratione, possimus fugit? 
+
+        section#sponsor 
+            h1 Our Sponsors
+            div#sponlogo 
+                img(src="/static/images/spon1.png" alt="sponsor1")
+                img(src="/static/images/spon2.png" alt="sponsor1")
+                img(src="/static/images/spon3.png" alt="sponsor1")
+                img(src="/static/images/spon4.png" alt="sponsor1")
+                //- img(src="/static/images/spon5.png")
+                img(src="/static/images/spon6.png" alt="sponsor1")
+
+        footer#foot 
+            p Copyright &#169; DanceZone.com | All rights reserved 
